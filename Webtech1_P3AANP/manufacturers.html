@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="js/loadManufacturers.js" type="text/javascript"></script>
+<script src="js/delete.js" type="text/javascript"></script>
+<table id="manufacturerTable">
+    <tr>
+        <th>Manufacturer ID</th>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Founded</th>
+    </tr>
+</table>
+<h2>Modify Manufacturer</h2>
+<form id="manufacturers">
+    <table>
+        <tr>
+            <td>Manufacturer ID</td>
+            <td> <input name="id" type="text" id="id" required="required" autofocus /></td>
+        </tr>
+        <tr>
+            <td>New Name</td>
+            <td> <input name="name" type="text" id="name" required="required" /></td>
+        </tr>
+        <tr>
+            <td>New Country</td>
+            <td> <input name="country" type="text" id="country" required="required" /></td>
+        </tr>
+        <tr>
+            <td>New Founded</td>
+            <td> <input name="founded" type="date" id="founded" required="required" /></td>
+        </tr>
+        <tr>
+            <td> <input type="submit" class="button" value="Modify"></td>            
+            <td></td>
+        </tr>
+    </table>
+</form>
+<h2>Delete Manufacturer</h2>
+<form id="delmanufacturers">
+    <table>
+        <tr>
+            <td>Manufacturer ID</td>
+            <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" class="button" value="Delete Manufacturer" /></td>
+        </tr>
+    </table>
+</form>
+
+</html>
